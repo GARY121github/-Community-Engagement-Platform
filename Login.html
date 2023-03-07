@@ -80,12 +80,16 @@
 
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1" class="text-uppercase">Password</label>
-                            <input type="password" class="form-control" placeholder="">
+                            <label for="exampleInputPassword1" class="text-uppercase">Email Address</label>
+                            <input type="text" class="form-control" placeholder="">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1" class="text-uppercase">Email Address</label>
-                            <input type="password" class="form-control" placeholder="">
+                            <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+                            <div class="passBox">
+                                <input type="password" id="pass" class="form-control" placeholder=""
+                                    style="border: none; outline: none;">
+                                <img src="showpass.png" alt="show pass img" id="showpass">
+                            </div>
                         </div>
 
 
@@ -137,7 +141,7 @@
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block img-fluid"
-                                    src="https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg"
+                                    src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg"
                                     alt="First slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <!-- <div class="banner-text">
@@ -154,6 +158,17 @@
                 </div>
             </div>
     </section>
+
+    <script>
+        document.getElementById("showpass").addEventListener("click", () => {
+            if (document.getElementById("pass").getAttribute("type") === "password") {
+                document.getElementById("pass").setAttribute("type", "text");
+            }
+            else {
+                document.getElementById("pass").setAttribute("type", "password");
+            }
+        })
+    </script>
 </body>
 
 </html>
