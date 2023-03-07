@@ -106,3 +106,159 @@
 .banner-text p {
     color: #fff;
 }
+=======
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+  }
+
+/* HEADER PORTION */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #6096B4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .login, .signup {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .login:hover, .signup:hover {
+    background-color: #666;
+  }
+
+
+/* FIRST PAGE */
+  
+  /* Apply a background color to the section */
+  .text-image-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6096B4;
+    padding: 40px;
+  }
+  
+  /* Style the text container */
+  .text {
+    width: 50%;
+  }
+  
+  .text h2 {
+    font-size: 82px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+  
+  .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the image container */
+  .image {
+    width: 40%;
+    text-align: right;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+/* Style the search icon container */
+.search-icon {
+    margin-top: 75px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+  width: 320px;
+  background-color: #fff;
+}
+
+/* Style the search input */
+input[type="text"] {
+  border: none;
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+/* Style the search button */
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.fa-search {
+  color: #555;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+button:hover .fa-search {
+  color: #007bff;
+}
+>>>>>>> c986d473a64740c37b5606da3c9cf31b130ef936

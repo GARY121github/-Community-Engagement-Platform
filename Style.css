@@ -106,3 +106,23 @@
 .banner-text p {
     color: #fff;
 }
+
+#showpass {
+    width: 2rem;
+    padding: 0.2rem;
+}
+
+.passBox {
+    display: flex;
+    border: 1px solid #ced4da;
+}
+
+.passBox input:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.passBox:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
