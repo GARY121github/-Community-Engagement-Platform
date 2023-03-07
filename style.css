@@ -106,7 +106,7 @@
 .banner-text p {
     color: #fff;
 }
-=======
+
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 *{
@@ -261,4 +261,3 @@ button {
 button:hover .fa-search {
   color: #007bff;
 }
->>>>>>> c986d473a64740c37b5606da3c9cf31b130ef936
