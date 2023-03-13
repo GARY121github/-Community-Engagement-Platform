@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- fav-icon -->
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4474/4474452.png">
+
+    <title>Connect2Alumni</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="https://cdn-icons-png.flaticon.com/512/4474/4474452.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="Login.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="auth">
+          <button class="login">Login</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </header>
+
+      <section class="text-image-section">
+        <div class="text">
+          <h2><span>Get ready to connect...</span></h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas magnam nisi! Incidunt libero nemo ullam enim corrupti, iusto saepe. Eius distinctio quaerat aut necessitatibus assumenda soluta, quam ullam ducimus, minus fugit illum saepe eveniet maiores quas officia nesciunt! Quas, corrupti. Tenetur, natus sed! Recusandae officia ipsa magni asperiores. Mollitia!</p>
+          <div class="search-icon">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://thumbs.dreamstime.com/z/young-man-programmer-working-computer-code-screen-student-programming-vector-concept-man-work-computer-programmer-102846347.jpg" alt="Image Description">
+        </div>
+      </section>
+      
+      <script href="index.js"></script>
+</body>
+</html>
