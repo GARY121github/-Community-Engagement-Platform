@@ -1,0 +1,1676 @@
+<!doctype html>
+<!-- First they ignore you, then they laugh at you, then they fight you, then you win. - Mohandas Karamchand Gandhi -->
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <!-- Inlined Google Fonts loading-->
+    <link
+        href="//fonts.cdnfonts.com/css/open-sans?styles=17414,20530,17411,17412,17413,17415,17416,17407,17408,17409,17410"
+        rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDvucq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDt-cq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDsOcq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDvOcq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDvecq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDs-cq7Gq0DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMOvWnsUnxlC9.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWnsUnxlC9.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPuvWnsUnxlC9.woff2) format('woff2');
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMuvWnsUnxlC9.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWnsUnxlC9.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Dvucq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Dt-cq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_DsOcq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_DvOcq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Dvecq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Ds-cq7Gq0DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvucq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dt-cq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7DsOcq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0370-03FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7DvOcq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvecq7Gq0DDzS.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+        }
+
+        @font-face {
+            font-family: 'Source Code Pro';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Ds-cq7Gq0DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+        }
+    </style>
+
+    <!-- <title>Access Account - HackerRank</title> -->
+    <style type="text/css">
+        .heateor_sss_button_instagram span.heateor_sss_svg,
+        a.heateor_sss_instagram span.heateor_sss_svg {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%)
+        }
+
+        div.heateor_sss_horizontal_sharing a.heateor_sss_button_instagram span {
+            background: #fff !important;
+        }
+
+        div.heateor_sss_standard_follow_icons_container a.heateor_sss_button_instagram span {
+            background: #fff;
+        }
+
+        .heateor_sss_horizontal_sharing .heateor_sss_svg,
+        .heateor_sss_standard_follow_icons_container .heateor_sss_svg {
+            background-color: #fff !important;
+            background: #fff !important;
+            color: #B7C9CC;
+            border-width: 0px;
+            border-style: solid;
+            border-color: transparent;
+        }
+
+        .heateor_sss_horizontal_sharing span.heateor_sss_svg:hover,
+        .heateor_sss_standard_follow_icons_container span.heateor_sss_svg:hover {
+            border-color: transparent;
+        }
+
+        .heateor_sss_vertical_sharing span.heateor_sss_svg,
+        .heateor_sss_floating_follow_icons_container span.heateor_sss_svg {
+            color: #fff;
+            border-width: 0px;
+            border-style: solid;
+            border-color: transparent;
+        }
+
+        .heateor_sss_vertical_sharing span.heateor_sss_svg:hover,
+        .heateor_sss_floating_follow_icons_container span.heateor_sss_svg:hover {
+            border-color: transparent;
+        }
+
+        @media screen and (max-width:783px) {
+            .heateor_sss_vertical_sharing {
+                display: none !important
+            }
+        }
+    </style>
+    <meta name='robots' content='max-image-preview:large' />
+
+    <!-- This site is optimized with the Yoast SEO Premium plugin v12.2 - https://yoast.com/wordpress/plugins/seo/ -->
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://www.hackerrank.com/access-account/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Access Account - HackerRank" />
+    <meta property="og:description"
+        content="BUSINESSFor Companies We are the market–leading technical interview platform to identify and hire developers with the right skills. Login Don&#8217;t have an account? Contact sales or Get free trial. For Developers Join over million developers, practice coding skills, prepare for interviews, and get hired. Login Don&#8217;t have an account? Sign up." />
+    <meta property="og:url" content="https://www.hackerrank.com/access-account/" />
+    <meta property="og:site_name" content="HackerRank" />
+    <meta property="article:publisher" content="https://www.facebook.com/hackerrank/" />
+    <meta property="og:image"
+        content="https://www.hackerrank.com/wp-content/uploads/2019/09/hackerrank_share-image_0_default_20190913.png" />
+    <meta property="og:image:secure_url"
+        content="https://www.hackerrank.com/wp-content/uploads/2019/09/hackerrank_share-image_0_default_20190913.png" />
+    <meta property="og:image:width" content="1680" />
+    <meta property="og:image:height" content="768" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description"
+        content="BUSINESSFor Companies We are the market–leading technical interview platform to identify and hire developers with the right skills. Login Don&#8217;t have an account? Contact sales or Get free trial. For Developers Join over million developers, practice coding skills, prepare for interviews, and get hired. Login Don&#8217;t have an account? Sign up." />
+    <meta name="twitter:title" content="Access Account - HackerRank" />
+    <meta name="twitter:site" content="@hackerrank" />
+    <meta name="twitter:image"
+        content="https://marketing.hackerrank.com/wp-content/uploads/2019/09/hackerrank_share-image_0_default_20190913.png" />
+    <meta name="twitter:creator" content="@hackerrank" />
+    <script type='application/ld+json'
+        class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.hackerrank.com/#organization","name":"HackerRank","url":"https://www.hackerrank.com/","sameAs":["https://www.facebook.com/hackerrank/","https://www.instagram.com/hackerrank/","https://www.linkedin.com/company/hackerrank","https://twitter.com/hackerrank"],"logo":{"@type":"ImageObject","@id":"https://www.hackerrank.com/#logo","url":"https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png","width":334,"height":36,"caption":"HackerRank"},"image":{"@id":"https://www.hackerrank.com/#logo"}},{"@type":"WebSite","@id":"https://www.hackerrank.com/#website","url":"https://www.hackerrank.com/","name":"HackerRank","publisher":{"@id":"https://www.hackerrank.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.hackerrank.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.hackerrank.com/access-account/#webpage","url":"https://www.hackerrank.com/access-account/","inLanguage":"en-US","name":"Access Account - HackerRank","isPartOf":{"@id":"https://www.hackerrank.com/#website"},"datePublished":"2022-11-03T15:07:50-07:00","dateModified":"2023-01-05T20:32:53-08:00"}]}</script>
+    <!-- / Yoast SEO Premium plugin. -->
+
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="HackerRank &raquo; Feed"
+        href="https://www.hackerrank.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="HackerRank &raquo; Comments Feed"
+        href="https://www.hackerrank.com/comments/feed/" />
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+            --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+            --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+            --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+            --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+            --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+            --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+            --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+    </style>
+    <link rel='stylesheet' id='hackerrank-style-css'
+        href='https://www.hackerrank.com/wp-content/themes/hackerrank/style.min.css?ver=1678469759' type='text/css'
+        media='all' />
+    <link rel='stylesheet' id='heateor_sss_frontend_css-css'
+        href='https://www.hackerrank.com/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.46'
+        type='text/css' media='all' />
+    <script type='text/javascript' id='jquery-core-js-extra'>
+        /* <![CDATA[ */
+        var adminAjax = { "url": "https:\/\/www.hackerrank.com\/wp-admin\/admin-ajax.php", "nonce": "335313415c" };
+/* ]]> */
+    </script>
+    <script type='text/javascript' src='https://www.hackerrank.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0'
+        id='jquery-core-js'></script>
+    <script type='text/javascript'
+        src='https://www.hackerrank.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2'
+        id='jquery-migrate-js'></script>
+    <script type='text/javascript' id='search-filter-pro-bb-js-extra'>
+        /* <![CDATA[ */
+        var SFVC_DATA = { "ajax_url": "https:\/\/www.hackerrank.com\/wp-admin\/admin-ajax.php", "home_url": "https:\/\/www.hackerrank.com\/" };
+/* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='https://www.hackerrank.com/wp-content/plugins/search-filter-bb/js/bb-frontend-search-filter.js?ver=1.0.1'
+        id='search-filter-pro-bb-js'></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.hackerrank.com/xmlrpc.php?rsd" />
+    <link rel='shortlink' href='https://www.hackerrank.com/?p=13166' />
+    <style>
+        @font-face {
+            font-family: "hackerrank-icon";
+            src: url("https://www.hackerrank.com/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.eot");
+            src: url("https://www.hackerrank.com/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.eot?#iefix") format("eot"), url("https://www.hackerrank.com/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.woff2") format("woff2"), url("https://www.hackerrank.com/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.woff") format("woff"), url("https://www.hackerrank.com/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.ttf") format("truetype"), url("https://www.hackerrank.com/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.svg#hackerrank-icon") format("svg")
+    </style>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0114/7121.js" async="async"></script>
+    <link rel="icon"
+        href="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-150x150.png"
+        sizes="32x32" />
+    <link rel="icon"
+        href="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png"
+        sizes="192x192" />
+    <link rel="apple-touch-icon"
+        href="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png" />
+    <meta name="msapplication-TileImage"
+        content="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png" />
+    <!-- Anti-flicker snippet (recommended) 
+    <style>.async-hide { opacity: 0 !important} </style>
+
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+    {'GTM-PX2ZJF2':true});</script>--> <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PX2ZJF2');</script>
+    <!-- End Google Tag Manager --><!-- start Mixpanel -->
+    <script type="text/javascript">(function (e, a) {
+            if (!a.__SV) {
+                var b = window; try { var c, l, i, j = b.location, g = j.hash; c = function (a, b) { return (l = a.match(RegExp(b + "=([^&]*)"))) ? l[1] : null }; g && c(g, "state") && (i = JSON.parse(decodeURIComponent(c(g, "state"))), "mpeditor" === i.action && (b.sessionStorage.setItem("_mpcehash", g), history.replaceState(i.desiredHash || "", e.title, j.pathname + j.search))) } catch (m) { } var k, h; window.mixpanel = a; a._i = []; a.init = function (b, c, f) {
+                    function e(b, a) {
+                        var c = a.split("."); 2 == c.length && (b = b[c[0]], a = c[1]); b[a] = function () {
+                            b.push([a].concat(Array.prototype.slice.call(arguments,
+                                0)))
+                        }
+                    } var d = a; "undefined" !== typeof f ? d = a[f] = [] : f = "mixpanel"; d.people = d.people || []; d.toString = function (b) { var a = "mixpanel"; "mixpanel" !== f && (a += "." + f); b || (a += " (stub)"); return a }; d.people.toString = function () { return d.toString(1) + ".people (stub)" }; k = "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+                    for (h = 0; h < k.length; h++)e(d, k[h]); a._i.push([b, c, f])
+                }; a.__SV = 1.2; b = e.createElement("script"); b.type = "text/javascript"; b.async = !0; b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === e.location.protocol && "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"; c = e.getElementsByTagName("script")[0]; c.parentNode.insertBefore(b, c)
+            }
+        })(document, window.mixpanel || []);
+        mixpanel.init("bcb75af88bccc92724ac5fd79271e1ff");</script>
+    <!-- end Mixpanel --> <!-- jsCookies -->
+    <script type="text/javascript">
+        if (function (factory) { if ("function" == typeof define && define.amd) define(factory); else if ("object" == typeof exports) module.exports = factory(); else { var OldCookies = window.Cookies, api = window.Cookies = factory(); api.noConflict = function () { return window.Cookies = OldCookies, api } } }(function () { function extend() { for (var i = 0, result = {}; i < arguments.length; i++) { var attributes = arguments[i]; for (var key in attributes) result[key] = attributes[key] } return result } function init(converter) { function api(key, value, attributes) { var result; if ("undefined" != typeof document) { if (arguments.length > 1) { if (attributes = extend({ path: "/" }, api.defaults, attributes), "number" == typeof attributes.expires) { var expires = new Date; expires.setMilliseconds(expires.getMilliseconds() + 864e5 * attributes.expires), attributes.expires = expires } try { result = JSON.stringify(value), /^[\{\[]/.test(result) && (value = result) } catch (e) { } return value = converter.write ? converter.write(value, key) : encodeURIComponent(String(value)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g, decodeURIComponent), key = encodeURIComponent(String(key)), key = key.replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent), key = key.replace(/[\(\)]/g, escape), document.cookie = [key, "=", value, attributes.expires && "; expires=" + attributes.expires.toUTCString(), attributes.path && "; path=" + attributes.path, attributes.domain && "; domain=" + attributes.domain, attributes.secure ? "; secure" : ""].join("") } key || (result = {}); for (var cookies = document.cookie ? document.cookie.split("; ") : [], rdecode = /(%[0-9A-Z]{2})+/g, i = 0; i < cookies.length; i++) { var parts = cookies[i].split("="), cookie = parts.slice(1).join("="); '"' === cookie.charAt(0) && (cookie = cookie.slice(1, -1)); try { var name = parts[0].replace(rdecode, decodeURIComponent); if (cookie = converter.read ? converter.read(cookie, name) : converter(cookie, name) || cookie.replace(rdecode, decodeURIComponent), this.json) try { cookie = JSON.parse(cookie) } catch (e) { } if (key === name) { result = cookie; break } key || (result[name] = cookie) } catch (e) { } } return result } } return api.set = api, api.get = function (key) { return api(key) }, api.getJSON = function () { return api.apply({ json: !0 }, [].slice.call(arguments)) }, api.defaults = {}, api.remove = function (key, attributes) { api(key, "", extend(attributes, { expires: -1 })) }, api.withConverter = init, api } return init(function () { }) }), "undefined" == typeof jsCookies && "undefined" != typeof Cookies) var jsCookies = { get: function (c_name) { return Cookies.get(c_name) }, set: function (c_name, value, expiredays, expirehours, expiremins, expiresecs, options) { var exdate = new Date; exdate.setDate(exdate.getDate() + (expiredays || 0)), exdate.setHours(exdate.getHours() + (expirehours || 0)), exdate.setMinutes(exdate.getMinutes() + (expiremins || 0)), exdate.setSeconds(exdate.getSeconds() + (expiresecs || 0)); var set_expire_time = !(null == expiredays && null == expiresecs && null == expiremins && null == expirehours), config = options || {}; set_expire_time && (config.expires = exdate), Cookies.set(c_name, value, config) }, check: function (c_name) { return !!Cookies.get(c_name) }, destroy: function (c_name) { Cookies.remove(c_name) } };
+    </script>
+    <!-- end jsCookies --><!-- hr_metrics -->
+    <script type="text/javascript">
+        ! function (obj) {
+            window.hr_metrics = obj, obj.externalService = function (event_type, event_value, attrs, service) {
+                attrs = "undefined" != typeof attrs ? attrs : {}, attrs.session_id = jsCookies.get("session_id"), service = "undefined" != typeof service ? service : "mixpanel:heap", external_services = service.split(":"), -1 != jQuery.inArray("mixpanel", external_services) && mixpanel.push([event_type, event_value, attrs]), -1 != jQuery.inArray("heap", external_services) && "track" == event_type && heap.track(event_value, attrs)
+            }, obj.track = function (event_name, event_value, attrs) {
+                metrics_endpoint = "https://metrics.hackerrank.com/metrics", window.HR && window.HR.development && (metrics_endpoint = "/metrics"), common_attrs = {
+                    session_id: jsCookies.get("session_id")
+                }, attrs = jQuery.extend({}, attrs, common_attrs), jQuery.ajax({
+                    type: "POST",
+                    url: metrics_endpoint,
+                    crossDomain: !0,
+                    xhrFields: {
+                        withCredentials: !0
+                    },
+                    data: {
+                        event_name: event_name,
+                        event_value: event_value,
+                        uid: jsCookies.get("hackerrank_mixpanel_token"),
+                        uid_token: jsCookies.get("metrics_user_identifier"),
+                        params: attrs
+                    }
+                })
+            }, obj.track_dwell_time = function (pathname) {
+                if (window.navigation_data && window.navigation_data.page == pathname) {
+                    var time_now = (new Date).getTime();
+                    hr_metrics.track("DwellTime", pathname, {
+                        attribute7: parseInt((time_now - (window.navigation_data.time || time_now)) / 1e3)
+                    })
+                }
+            }, obj.set_navigation_data = function (pathname) {
+                window.navigation_data = {
+                    page: pathname || document.location.pathname,
+                    time: (new Date).getTime()
+                }
+            }, obj.set_scrolling_data = function () {
+                var _pathname = document.location.pathname,
+                    _window_height = $(window).height(),
+                    _document_height = $(document).height(),
+                    _scrollable_height = _document_height - _window_height + 1,
+                    _scrolled_height = $(document).scrollTop(),
+                    _scrolled_percentage = parseInt(100 * _scrolled_height / _scrollable_height);
+                (!hr_metrics.scroll_data || hr_metrics.scroll_data.pathname != _pathname || hr_metrics.scroll_data.scrolled_percentage < _scrolled_percentage || hr_metrics.scroll_data.scrolled_height < _scrolled_height) && (hr_metrics.scroll_data = {
+                    pathname: _pathname,
+                    scrollable_height: _scrollable_height,
+                    scrolled_height: _scrolled_height,
+                    scrolled_percentage: _scrolled_percentage,
+                    window_height: _window_height,
+                    document_percentage: 100 * (_window_height + _scrolled_height) / (_document_height + 1),
+                    scroll_tracked: !1
+                })
+            }
+        }(window.hr_metrics || {}),
+            function () {
+                "function" == typeof $ && $(document).ready(function () {
+                    var _pathname = document.location.pathname;
+                    window.HR = window.HR || {};
+                    if (hr_metrics.track("PageLoad", _pathname + document.location.search, {
+                        attribute1: _pathname
+                    }), hr_metrics.track_dwell_time && (hr_metrics.track_dwell_time(_pathname), hr_metrics.set_navigation_data()), $(window).on("beforeunload", function () {
+                        var _pathname = document.location.pathname;
+                        hr_metrics.track("PageClose", _pathname + document.location.search, {
+                            attribute2: _pathname
+                        }), hr_metrics.track_dwell_time && hr_metrics.track_dwell_time(_pathname), window.HR && window.HR.time_to_solve && window.HR.time_to_solve.finish && window.HR.time_to_solve.finish(), window.typingTimeout && (window.clearTimeout(window.typingTimeout), window.triggerTypingEvent && window.typingEventEnabled && window.triggerTypingEvent())
+                    }), window.HR.pause_event = function () {
+                        window.HR && window.HR.time_to_solve && window.HR.time_to_solve.pause && window.HR.time_to_solve.pause()
+                    }, window.HR.unpause_event = function () {
+                        window.HR && window.HR.time_to_solve && window.HR.time_to_solve.unpause && window.HR.time_to_solve.unpause()
+                    }, window.HR.throttled_time_to_solve_unpause = _.throttle(function () {
+                        window.HR && window.HR.time_to_solve && (window.HR.time_to_solve.paused && window.HR.time_to_solve.unpause(), window.HR.time_to_solve.update(), window.HR.time_to_solve_timeout && window.clearTimeout(window.HR.time_to_solve_timeout), window.HR.time_to_solve_timeout = window.setTimeout(function () {
+                            window.HR && window.HR.pause_event && window.HR.pause_event()
+                        }, 3e4))
+                    }, 2e3), $(window).on("blur", function () {
+                        window.HR.pause_event()
+                    }), $(window).on("focus", function () {
+                        window.HR.unpause_event()
+                    }), $(window).on("keydown mousemove scroll", function () {
+                        window.HR.throttled_time_to_solve_unpause()
+                    }), "function" == typeof _) {
+                        var throttled_scroll = _.throttle(function () {
+                            hr_metrics.set_scrolling_data(), hr_metrics.scroll_data && !hr_metrics.scroll_data.scroll_tracked && (hr_metrics.scroll_data.scroll_tracked = !0, hr_metrics.track("PageScroll", hr_metrics.scroll_data.pathname + document.location.search, {
+                                attribute1: hr_metrics.scroll_data.pathname,
+                                attribute2: hr_metrics.scroll_data.window_height,
+                                attribute7: hr_metrics.scroll_data.scrolled_percentage,
+                                attribute8: hr_metrics.scroll_data.scrolled_height,
+                                attribute9: hr_metrics.scroll_data.scrollable_height,
+                                attribute10: hr_metrics.scroll_data.document_percentage
+                            }))
+                        }, 2e3),
+                            throttled_data_set = _.throttle(hr_metrics.set_scrolling_data, 200);
+                        $(window).on("scroll", function () {
+                            throttled_data_set(), throttled_scroll()
+                        }), $("body,html").on("scroll", function () {
+                            throttled_data_set(), throttled_scroll()
+                        })
+                    }
+                })
+            }();
+    </script>
+    <!-- end hr_metrics --><!-- Preload iconfont -->
+    <link rel="preload" href="/wp-content/themes/hackerrank/assets/fonts/icons/hackerrank-icon.woff2" as="font"
+        crossorigin="anonymous">
+    <!-- end Preload iconfont --><!-- tracking utm parameters -->
+    <script type="text/javascript" src="//info.hackerrank.com/rs/487-WAY-049/images/utmscript.js?v1"></script>
+    <!-- heap pixel -->
+    <script type="text/javascript">
+        window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = document.createElement("script"); r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(r, a); for (var n = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++)heap[p[o]] = n(p[o]) };
+        heap.load("547804831"); 
+    </script>
+</head>
+
+<body
+    class="page-template page-template-page-create_account page-template-page-create_account-php page page-id-13166 page-parent wp-custom-logo page-access-account top-bar-display header-display">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PX2ZJF2" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="page" class="site">
+
+        <header id="masthead" class="hr__site-header header">
+            <div class="header-top"></div>
+            <div id="header-sticky">
+                <div class="hr__wrap">
+                    <div class="container header-container">
+                        <nav id="site-navigation" class="header-nav">
+                            <!-- <div class="site-branding">
+                                <a href="https://www.hackerrank.com/" data-analytics="LogoLink"
+                                    data-attr1="access_account" data-event-label="header"
+                                    data-event-action="HackerRank_logo" data-attr2="navigation" class="custom-logo-link"
+                                    rel="home" title="Hackerrank"><img width="334" height="36"
+                                        src="https://www.hackerrank.com/wp-content/uploads/2018/08/hackerrank_logo.png"
+                                        class="custom-logo" alt="HackerRank Logo" /></a>
+                            </div> -->
+                            <a href="#" class="header-back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <title>Back</title>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.53033 1.53033C8.82322 1.23744 8.82322 0.762563 8.53033 0.46967C8.23744 0.176777 7.76256 0.176777 7.46967 0.46967L0.46967 7.46967C0.397763 7.54158 0.343509 7.62445 0.306909 7.71291C0.270239 7.80134 0.25 7.89831 0.25 8C0.25 8.10169 0.270239 8.19866 0.306909 8.28709C0.343509 8.37555 0.397762 8.45842 0.46967 8.53033L7.46967 15.5303C7.76256 15.8232 8.23744 15.8232 8.53033 15.5303C8.82322 15.2374 8.82322 14.7626 8.53033 14.4697L2.81066 8.75H15C15.4142 8.75 15.75 8.41421 15.75 8C15.75 7.58579 15.4142 7.25 15 7.25H2.81066L8.53033 1.53033Z"
+                                        fill="#0E141E" />
+                                </svg></a>
+                            <a class="header-hamburger_container" data-analytics="MobileMenuLink"
+                                data-attr1="access_account" data-attr2="navigation">
+                                <div class="header-hamburger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="header-nav-menu">
+                                <div class="header-nav-menu-content">
+                                    <div class="menu-main-navigation-container">
+                                        <ul id="menu-main-navigation" class="menu-main-navigation">
+                                            <li
+                                                class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-0 link-products'>
+                                                <div class="nav-item">Products</div>
+                                                <div class='sub-menu-container'>
+                                                    <ul class='sub-menu'>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-1 link-products'>
+                                                            <div class="nav-item">Products</div>
+                                                            <div class='sub-menu-container'>
+                                                                <ul class='sub-menu'>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-prep'>
+                                                                        <div class="nav-item">Prep</div>
+                                                                        <!-- <div class="nav-item-description">
+                                                                            <p>Practice coding and prepare for
+                                                                                interviews.</p>
+                                                                        </div> -->
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-screen'>
+                                                                        <a class="nav-item"
+                                                                            href="/products/developer-skills-platform/screen/">Screen</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Save time and accelerate your hiring.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-interview'>
+                                                                        <a class="nav-item"
+                                                                            href="/products/developer-skills-platform/interview/">Interview</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Conduct stellar technical interviews.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-1 link-features'>
+                                                            <div class="nav-item">Features</div>
+                                                            <div class='sub-menu-container'>
+                                                                <ul class='sub-menu'>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-question-library'>
+                                                                        <div class="nav-item"><img width="17"
+                                                                                height="17"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/1.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Question Library</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-projects'>
+                                                                        <div class="nav-item"><img width="19"
+                                                                                height="13"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/2.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Projects</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-certified-assessment'>
+                                                                        <div class="nav-item"><img width="17"
+                                                                                height="17"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/3.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Certified Assessment</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-interviewer-scorecard'>
+                                                                        <div class="nav-item"><img width="16"
+                                                                                height="11"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/4.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Interviewer Scorecard</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-test-creation'>
+                                                                        <div class="nav-item"><img width="19"
+                                                                                height="19"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/5.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Test Creation</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-code-playback'>
+                                                                        <div class="nav-item"><img width="15"
+                                                                                height="11"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/6.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Code Playback</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-interview-templates'>
+                                                                        <div class="nav-item"><img width="17"
+                                                                                height="12"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/7.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Interview Templates</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-plagiarism-detection'>
+                                                                        <div class="nav-item"><img width="15"
+                                                                                height="11"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/8.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Plagiarism Detection</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-virtual-whiteboards'>
+                                                                        <div class="nav-item"><img width="18"
+                                                                                height="14"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/9.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Virtual Whiteboards</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-insights'>
+                                                                        <div class="nav-item"><img width="17"
+                                                                                height="11"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/10.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Insights</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-collaborative-ide'>
+                                                                        <div class="nav-item"><img width="17"
+                                                                                height="14"
+                                                                                src="https://www.hackerrank.com/wp-content/uploads/2020/05/11.svg"
+                                                                                class="attachment-full size-full"
+                                                                                alt="" />Collaborative IDE</div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom level-1 link-callout-science'>
+                                                            <div class="nav-item">Callout Science</div>
+                                                            <div class="nav-item-promo">
+                                                                <p><strong>Assessment Science</strong></p>
+                                                                <p>Provide valid, reliable, and unbiased assessments.
+                                                                </p>
+                                                                <p><a href="/science/">Learn More</a></p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li
+                                                class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-0 link-solutions'>
+                                                <div class="nav-item">Solutions</div>
+                                                <div class='sub-menu-container'>
+                                                    <ul class='sub-menu'>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom level-1 link-callout-dsp'>
+                                                            <div class="nav-item">Callout DSP</div>
+                                                            <div class="nav-item-promo">
+                                                                <p><strong><em>Enterprise</em> Technical Hiring
+                                                                        Solutions</strong></p>
+                                                                <p>Make the best technical hires from anywhere in the
+                                                                    world with the Developer Skills Platform.</p>
+                                                                <p><a href="/products/developer-skills-platform/">Learn
+                                                                        More</a> <a href="/contact-sales/">Contact
+                                                                        Us</a></p>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-1 link-by-use-case'>
+                                                            <div class="nav-item">By Use Case</div>
+                                                            <div class='sub-menu-container'>
+                                                                <ul class='sub-menu'>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-remote-hiring'>
+                                                                        <a class="nav-item"
+                                                                            href="/solutions/remote-hiring/">Remote
+                                                                            Hiring</a>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-university-recruiting'>
+                                                                        <a class="nav-item"
+                                                                            href="/solutions/university-recruiting/">University
+                                                                            Recruiting</a>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-diversity-inclusion'>
+                                                                        <a class="nav-item"
+                                                                            href="/solutions/diversity-hiring/">Diversity
+                                                                            & Inclusion</a>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-professional-hiring'>
+                                                                        <a class="nav-item"
+                                                                            href="/solutions/professional-hiring/">Professional
+                                                                            Hiring</a>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-professional-services'>
+                                                                        <a class="nav-item"
+                                                                            href="/solutions/professional-services/">Professional
+                                                                            Services</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-1 link-by-role'>
+                                                            <div class="nav-item">By Role</div>
+                                                            <div class='sub-menu-container'>
+                                                                <ul class='sub-menu'>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-hiring-manager'>
+                                                                        <div class="nav-item">Hiring Manager</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-interviewer'>
+                                                                        <div class="nav-item">Interviewer</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-recrutier'>
+                                                                        <div class="nav-item">Recrutier</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-coordinator'>
+                                                                        <div class="nav-item">Coordinator</div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-talent-acquisition'>
+                                                                        <div class="nav-item">Talent Acquisition</div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li
+                                                class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-0 link-resources'>
+                                                <div class="nav-item">Resources</div>
+                                                <div class='sub-menu-container'>
+                                                    <ul class='sub-menu'>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-1 link-learn'>
+                                                            <div class="nav-item">Learn</div>
+                                                            <div class='sub-menu-container'>
+                                                                <ul class='sub-menu'>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-blog'>
+                                                                        <a class="nav-item" href="/blog/">Blog</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Hiring best practices, job-hunting tips,
+                                                                                and industry insights.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-resource-library'>
+                                                                        <a class="nav-item" href="/resources/">Resource
+                                                                            Library</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Guides, datasheets, and data-driven
+                                                                                content for making the best hires.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-hiring-guides'>
+                                                                        <a class="nav-item"
+                                                                            href="/resources/hiring-guide-library/">Hiring
+                                                                            Guides</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p data-pm-slice="1 1 []">Research and
+                                                                                insights to help you make the right
+                                                                                hire.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-events'>
+                                                                        <a class="nav-item"
+                                                                            href="/resources/#webinars">Events</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Webinars, on-demand events, and live
+                                                                                chats with industry experts.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-skills-directory'>
+                                                                        <div class="nav-item">Skills Directory</div>
+                                                                        <div class="nav-item-description">
+                                                                            <p>More than 100 in-demand technical skills,
+                                                                                certified by experts.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children level-1 link-product-help'>
+                                                            <div class="nav-item">Product Help</div>
+                                                            <div class='sub-menu-container'>
+                                                                <ul class='sub-menu'>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-support-center'>
+                                                                        <a class="nav-item"
+                                                                            href="https://support.hackerrank.com/hc/en-us">Support
+                                                                            Center</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Everything you need to know to get
+                                                                                started.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-partners'>
+                                                                        <a class="nav-item"
+                                                                            href="/partners/">Partners</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Learn more about the HackerRank Partner
+                                                                                Network.</p>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-integrations'>
+                                                                        <a class="nav-item"
+                                                                            href="/integrations/">Integrations</a>
+                                                                        <!-- <div class="nav-item-description">
+                                                                            <p>HackerRank seamlessly connects with your
+                                                                                favorite tools.</p>
+                                                                        </div> -->
+                                                                    </li>
+                                                                    <li
+                                                                        class=' menu-item menu-item-type-custom menu-item-object-custom level-2 link-whats-new'>
+                                                                        <a class="nav-item"
+                                                                            href="/products/whatsnew/">What's New</a>
+                                                                        <div class="nav-item-description">
+                                                                            <p>Get the latest product news and updates.
+                                                                            </p>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li
+                                                            class=' menu-item menu-item-type-custom menu-item-object-custom level-1 link-callout-customer-stories'>
+                                                            <div class="nav-item">Callout Customer Stories</div>
+                                                            <div class="nav-item-promo">
+                                                                <p><strong>Customer Stories</strong></p>
+                                                                <p>Discover how industry-leading companies use
+                                                                    HackerRank to hire the best technical talent.</p>
+                                                                <p><a href="/customers/">Read Stories</a></p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li
+                                                class=' menu-item menu-item-type-custom menu-item-object-custom level-0 link-pricing'>
+                                                <a class="nav-item" href="/products/pricing/">Pricing</a>
+                                            </li>
+                                            <li
+                                                class=' menu-item menu-item-type-custom menu-item-object-custom level-0 link-for-candidates'>
+                                                <a class="nav-item" href="/dashboard/">For Candidates</a>
+                                            </li>
+                                            <li
+                                                class=' menu-item menu-item-type-custom menu-item-object-custom level-0 link-contact-us'>
+                                                <a class="nav-item" href="/contact-sales/">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-nav-menu-right">
+                                        <div class="menu-top-navigation-container">
+                                            <ul id="menu-top-navigation" class="menu-top-navigation">
+                                                <li id="menu-item-12850"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12850">
+                                                    <a href="/contact-sales/">Contact us</a>
+                                                </li>
+                                                <li id="menu-item-12851"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-12851">
+                                                    <a href="/access-account/" aria-current="page">Log in</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu-secondary-navigation-container">
+                                            <ul id="menu-secondary-navigation" class="menu-secondary-navigation">
+                                                <li id="menu-item-12869"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12869">
+                                                    <a href="/dashboard/">For candidates</a>
+                                                </li>
+                                                <li id="menu-item-12704"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12704">
+                                                    <a href="/request-demo/">Request demo</a>
+                                                </li>
+                                                <li id="menu-item-12705"
+                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12705">
+                                                    <a href="/get-started/">Sign up</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="primary" class="content-area" xmlns="http://www.w3.org/1999/html">
+            <main id="main" class="site-main create_account">
+                <div class="create_account-left">
+                    <div></div>
+                </div>
+                <article>
+                    <div class="entry-content">
+                        <div class="">
+                            <div class="create_account-content">
+                                <ul>
+                                    <li>
+                                        <h2><strong>BUSINESS</strong>For <em>Mentors</em></h2>
+                                        <p>We are the market–leading technical interview platform to identify and hire
+                                            developers with the right skills.</p>
+                                        <p><a class="hr_button hr_button__green"
+                                                href="https://www.hackerrank.com/work/login">Login</a></p>
+                                        <div class="create_account-bottom">Don't have an account?<br />
+                                            <a href="/contact-sales/">Contact sales</a> or <a
+                                                href="/get-started/hire/">Get free trial</a>.
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h2>For <em>Students</em></h2>
+                                        <p>Join over 21 million developers, practice coding skills, prepare for
+                                            interviews, and get hired.</p>
+                                        <p><a class="hr_button" href="/login/">Login</a></p>
+                                        <div class="create_account-bottom">Don't have an account?<br />
+                                            <a href="/signup/">Sign up</a>.
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="client_logos">
+                                    <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/peloton_black.png"
+                                        alt="" style="width:91px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/atlassian_black.png"
+                                        alt="" style="width:139px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/bloomberg_black.png"
+                                        alt="" style="width:91px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/vmware_black.png"
+                                        alt="" style="width:91px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/stripe_black.png"
+                                        alt="" style="width:90px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/goldmansachs_black.png"
+                                        alt="" style="width:121px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/adobe_black.png"
+                                        alt="" style="width:89px"> <img
+                                        src="https://www.hackerrank.com/wp-content/uploads/2022/10/linkedin_black.png"
+                                        alt="" style="width:115px">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </main><!-- #main -->
+        </div><!-- #primary -->
+        <div class="hr_get_started_popup">
+            <a href="#close_get_started_popup" class="hr_get_started_popup-close"></a>
+            <div class="hr_get_started_popup-content">
+                <p><strong>2023 Developer Skills Report</strong></p>
+                <p>Discover which developer skills and programming languages are the most in demand in 2023.</p>
+                <p><a
+                        href="/research/developer-skills/2023?utm_campaign=dev-skills-2023&#038;utm_source=web-promo-popup&#038;utm_medium=web">View
+                        Report</a></p>
+
+            </div>
+        </div>
+        <!-- <footer id="colophon" class="hr__site-footer">
+            <div class="container">
+                <div class="menu-footer-menu-container">
+                    <ul id="footer-menu" class="menu">
+                        <li id="menu-item-8451"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8451 menu-item-depth-0">
+                            <a href="https://www.hackerrank.com/products" data-event-label="footer"
+                                data-event-action="Products">Products<span class="menu-item__bullets"></span></a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-8452"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8452 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/developer-skills-platform/"
+                                        data-event-label="footer" data-event-action="Remote First Hiring">Remote First
+                                        Hiring</a>
+                                <li id="menu-item-8453"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8453 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/developer-skills-platform/plan/"
+                                        data-event-label="footer" data-event-action="Remote First Planning">Remote First
+                                        Planning</a>
+                                <li id="menu-item-8455"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8455 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/developer-skills-platform/screen/"
+                                        data-event-label="footer" data-event-action="Remote First Screening">Remote
+                                        First Screening</a>
+                                <li id="menu-item-8456"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8456 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/developer-skills-platform/interview/"
+                                        data-event-label="footer" data-event-action="Remote First Interviewing">Remote
+                                        First Interviewing</a>
+                                <li id="menu-item-8457"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8457 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/developer-skills-platform/rank/"
+                                        data-event-label="footer" data-event-action="Remote First Ranking">Remote First
+                                        Ranking</a>
+                                <li id="menu-item-8458"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8458 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/insights" data-event-label="footer"
+                                        data-event-action="Insights">Insights</a>
+                                <li id="menu-item-841"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-841 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/dashboard" data-event-label="footer"
+                                        data-event-action="HackerRank for Developers">HackerRank for Developers</a>
+                                <li id="menu-item-601"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-601 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/school/" data-event-label="footer"
+                                        data-event-action="HackerRank for School">HackerRank for School</a>
+                                <li id="menu-item-597"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-597 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/products/pricing/" data-event-label="footer"
+                                        data-event-action="Pricing">Pricing</a>
+                                <li id="menu-item-12181"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12181 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/science/" data-event-label="footer"
+                                        data-event-action="Assessment Science">Assessment Science</a>
+                            </ul>
+                        <li id="menu-item-6300"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6300 menu-item-depth-0">
+                            <a href="https://www.hackerrank.com/solutions/remote-hiring/" data-event-label="footer"
+                                data-event-action="Solutions">Solutions<span class="menu-item__bullets"></span></a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-12846"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12846 menu-item-depth-1">
+                                    <a href="/products/developer-skills-platform/" data-event-label="footer"
+                                        data-event-action="Enterprise Technical Hiring">Enterprise Technical Hiring</a>
+                                <li id="menu-item-6821"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6821 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/solutions/remote-hiring/"
+                                        data-event-label="footer" data-event-action="Remote Hiring">Remote Hiring</a>
+                                <li id="menu-item-6301"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6301 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/solutions/university-recruiting/"
+                                        data-event-label="footer" data-event-action="University Recruiting">University
+                                        Recruiting</a>
+                                <li id="menu-item-6302"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6302 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/solutions/diversity-hiring/"
+                                        data-event-label="footer"
+                                        data-event-action="Diversity &#038; Inclusion">Diversity &#038; Inclusion</a>
+                                <li id="menu-item-8459"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8459 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/solutions/professional-hiring/"
+                                        data-event-label="footer" data-event-action="Professional Hiring">Professional
+                                        Hiring</a>
+                                <li id="menu-item-12305"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12305 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/solutions/professional-services/"
+                                        data-event-label="footer" data-event-action="Professional Services">Professional
+                                        Services</a>
+                            </ul>
+                        <li id="menu-item-605"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-605 menu-item-depth-0">
+                            <a href="https://www.hackerrank.com/resources/" data-event-label="footer"
+                                data-event-action="Resources">Resources<span class="menu-item__bullets"></span></a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-42"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42 menu-item-depth-1">
+                                    <a href="/customers/" data-event-label="footer"
+                                        data-event-action="Customer Stories">Customer Stories</a>
+                                <li id="menu-item-46"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-46 menu-item-depth-1">
+                                    <a href="/resources/#webinars" data-event-label="footer"
+                                        data-event-action="Events">Events</a>
+                                <li id="menu-item-47"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47 menu-item-depth-1">
+                                    <a href="/resources/#datasheets" data-event-label="footer"
+                                        data-event-action="Datasheets">Datasheets</a>
+                                <li id="menu-item-689"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-689 menu-item-depth-1">
+                                    <a href="/resources/#guides" data-event-label="footer"
+                                        data-event-action="Guides">Guides</a>
+                                <li id="menu-item-598"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-598 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/partners/" data-event-label="footer"
+                                        data-event-action="Partners">Partners</a>
+                                <li id="menu-item-12847"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12847 menu-item-depth-1">
+                                    <a href="https://support.hackerrank.com/hc/en-us" data-event-label="footer"
+                                        data-event-action="Product Support">Product Support</a>
+                                <li id="menu-item-49"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49 menu-item-depth-1">
+                                    <a href="/resources/#webinars" data-event-label="footer"
+                                        data-event-action="Webinars">Webinars</a>
+                                <li id="menu-item-48"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48 menu-item-depth-1">
+                                    <a href="/resources/#research" data-event-label="footer"
+                                        data-event-action="Research">Research</a>
+                            </ul>
+                        <li id="menu-item-51"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-51 menu-item-depth-0">
+                            <a href="/blog/" data-event-label="footer" data-event-action="Blog">Blog<span
+                                    class="menu-item__bullets"></span></a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-12273"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12273 menu-item-depth-1">
+                                    <a href="/blog/category/find-a-job/" data-event-label="footer"
+                                        data-event-action="Find a Job">Find a Job</a>
+                                <li id="menu-item-12274"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12274 menu-item-depth-1">
+                                    <a href="/blog/category/hire-developers/" data-event-label="footer"
+                                        data-event-action="Hire Developers">Hire Developers</a>
+                                <li id="menu-item-12275"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12275 menu-item-depth-1">
+                                    <a href="/blog/category/industry-insights/" data-event-label="footer"
+                                        data-event-action="Industry Insights">Industry Insights</a>
+                                <li id="menu-item-12276"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12276 menu-item-depth-1">
+                                    <a href="/blog/category/manage-developers/" data-event-label="footer"
+                                        data-event-action="Manage Developers">Manage Developers</a>
+                                <li id="menu-item-12277"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12277 menu-item-depth-1">
+                                    <a href="/blog/category/news-updates/" data-event-label="footer"
+                                        data-event-action="News and Updates">News and Updates</a>
+                                <li id="menu-item-65"
+                                    class="menu-item-display-large hr__social-icons hr__social-icons--round-colored menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-65 menu-item-depth-1">
+                                    <a href="#" data-event-label="footer" data-event-action="Social Links">Social
+                                        Links<span class="menu-item__bullets"></span></a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-6283"
+                                            class="hr__icon-hexagon-logo menu-item--no-link menu-item menu-item-type-custom menu-item-object-custom menu-item-6283 menu-item-depth-2">
+                                            <a href="/" data-event-label="footer"
+                                                data-event-action="HackerRank">HackerRank</a>
+                                        <li id="menu-item-68"
+                                            class="footer-icon-fb menu-item menu-item-type-custom menu-item-object-custom menu-item-68 menu-item-depth-2">
+                                            <a target="_blank" href="https://www.facebook.com/hackerrank/"
+                                                data-event-label="footer" data-event-action="Facebook">Facebook</a>
+                                        <li id="menu-item-66"
+                                            class="footer-icon-li menu-item menu-item-type-custom menu-item-object-custom menu-item-66 menu-item-depth-2">
+                                            <a target="_blank" href="https://www.linkedin.com/company/hackerrank"
+                                                data-event-label="footer" data-event-action="LinkedIn">LinkedIn</a>
+                                        <li id="menu-item-67"
+                                            class="footer-icon-tw menu-item menu-item-type-custom menu-item-object-custom menu-item-67 menu-item-depth-2">
+                                            <a target="_blank" href="https://twitter.com/hackerrank"
+                                                data-event-label="footer" data-event-action="Twitter">Twitter</a>
+                                    </ul>
+                                <li id="menu-item-6289"
+                                    class="menu-item-display-large menu-item--no-link hr__footer-copyright menu-item menu-item-type-custom menu-item-object-custom menu-item-6289 menu-item-depth-1">
+                                    <a href="#" data-event-label="footer"
+                                        data-event-action="Copyright © 2023 HackerRank">Copyright © 2023 HackerRank</a>
+                                <li id="menu-item-6291"
+                                    class="menu-item-display-large menu-item--smaller menu-item-privacy menu-item menu-item-type-custom menu-item-object-custom menu-item-6291 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/privacy/" data-event-label="footer"
+                                        data-event-action="Privacy Policy">Privacy Policy</a>
+                            </ul>
+                        <li id="menu-item-813"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-813 menu-item-depth-0">
+                            <a href="https://www.hackerrank.com/about-us/" data-event-label="footer"
+                                data-event-action="About Us">About Us<span class="menu-item__bullets"></span></a>
+                            <ul class="sub-menu">
+                                <li id="menu-item-12848"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12848 menu-item-depth-1">
+                                    <a href="/contact-sales/" data-event-label="footer"
+                                        data-event-action="Contact Us">Contact Us</a>
+                                <li id="menu-item-814"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/about-us/" data-event-label="footer"
+                                        data-event-action="Company">Company</a>
+                                <li id="menu-item-736"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-736 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/careers/" data-event-label="footer"
+                                        data-event-action="Careers">Careers</a>
+                                <li id="menu-item-60"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60 menu-item-depth-1">
+                                    <a href="/about-us/our-team/" data-event-label="footer"
+                                        data-event-action="Our Team">Our Team</a>
+                                <li id="menu-item-7428"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7428 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/about-us/newsroom/" data-event-label="footer"
+                                        data-event-action="Newsroom">Newsroom</a>
+                                <li id="menu-item-4761"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4761 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/trust/" data-event-label="footer"
+                                        data-event-action="Security and Compliance">Security and Compliance</a>
+                                <li id="menu-item-12849"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12849 menu-item-depth-1">
+                                    <a href="https://status.hackerrank.com/" data-event-label="footer"
+                                        data-event-action="Status">Status</a>
+                                <li id="menu-item-6284"
+                                    class="menu-item-display-mobile hr__social-icons hr__social-icons--round-colored menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6284 menu-item-depth-1">
+                                    <a href="#" data-event-label="footer" data-event-action="Social Links">Social
+                                        Links<span class="menu-item__bullets"></span></a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-6285"
+                                            class="hr__icon-hexagon-logo menu-item--no-link menu-item menu-item-type-custom menu-item-object-custom menu-item-6285 menu-item-depth-2">
+                                            <a href="/" data-event-label="footer"
+                                                data-event-action="HackerRank">HackerRank</a>
+                                        <li id="menu-item-6286"
+                                            class="footer-icon-fb menu-item menu-item-type-custom menu-item-object-custom menu-item-6286 menu-item-depth-2">
+                                            <a target="_blank" href="https://www.facebook.com/hackerrank/"
+                                                data-event-label="footer" data-event-action="Facebook">Facebook</a>
+                                        <li id="menu-item-6287"
+                                            class="footer-icon-li menu-item menu-item-type-custom menu-item-object-custom menu-item-6287 menu-item-depth-2">
+                                            <a target="_blank" href="https://www.linkedin.com/company/hackerrank"
+                                                data-event-label="footer" data-event-action="LinkedIn">LinkedIn</a>
+                                        <li id="menu-item-6288"
+                                            class="footer-icon-tw menu-item menu-item-type-custom menu-item-object-custom menu-item-6288 menu-item-depth-2">
+                                            <a target="_blank" href="https://twitter.com/hackerrank"
+                                                data-event-label="footer" data-event-action="Twitter">Twitter</a>
+                                    </ul>
+                                <li id="menu-item-6290"
+                                    class="menu-item-display-mobile menu-item--no-link hr__footer-copyright menu-item menu-item-type-custom menu-item-object-custom menu-item-6290 menu-item-depth-1">
+                                    <a href="#" data-event-label="footer"
+                                        data-event-action="Copyright © 2023 HackerRank">Copyright © 2023 HackerRank</a>
+                                <li id="menu-item-3765"
+                                    class="menu-item-display-mobile menu-item--smaller menu-item-privacy menu-item menu-item-type-custom menu-item-object-custom menu-item-3765 menu-item-depth-1">
+                                    <a href="https://www.hackerrank.com/privacy/" data-event-label="footer"
+                                        data-event-action="Privacy Policy">Privacy Policy</a>
+                            </ul>
+                    </ul>
+                </div>
+            </div>
+        </footer> -->
+    </div><!-- #page -->
+    <!-- Some Black Magic for Internet Explorer -->
+
+    <!--[if lt IE 10]>
+        <script src="https://hrcdn.net/hackerrank/assets/jquery-plugins/jQuery.XDomainRequest-28488b2668d975b95331be79582a53fc.js"></script>
+        <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js" type="text/javascript"></script>
+        <![endif]-->
+
+    <!-- Chrome Frame for IE6 -->
+    <!--[if lt IE 7 ]>
+        <script src="https://ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+        <![endif]-->
+
+    <!--[if lte IE 9]>
+        <script>
+            IE_BROWSER = true
+        </script>
+        <![endif]-->
+
+
+
+
+
+
+
+    <link rel='stylesheet' id='search-filter-plugin-styles-css'
+        href='https://www.hackerrank.com/wp-content/plugins/search-filter-pro/public/assets/css/search-filter.min.css?ver=2.5.1'
+        type='text/css' media='all' />
+    <script type='text/javascript'
+        src='https://www.hackerrank.com/wp-content/themes/hackerrank/js/src/hr-helper/hr-helper.min.js?ver=5.7'
+        id='hackerrank-helper-js'></script>
+    <script type='text/javascript'
+        src='https://www.hackerrank.com/wp-content/themes/hackerrank/js/dist/scripts.min.js?ver=1678078349'
+        id='hackerrank-source-scripts-js'></script>
+    <script type='text/javascript' id='heateor_sss_sharing_js-js-before'>
+        function heateorSssLoadEvent(e) { var t = window.onload; if (typeof window.onload != "function") { window.onload = e } else { window.onload = function () { t(); e() } } }; var heateorSssSharingAjaxUrl = 'https://www.hackerrank.com/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://www.hackerrank.com/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://www.hackerrank.com/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0; var heateorSssCopyLinkMessage = "Link copied."; var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share'; function heateorSssPopup(e) { window.open(e, "popUpWindow", "height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status") }
+    </script>
+    <script type='text/javascript'
+        src='https://www.hackerrank.com/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=3.3.46'
+        id='heateor_sss_sharing_js-js'></script>
+    <script type='text/javascript'
+        src='https://www.hackerrank.com/wp-content/themes/hackerrank/js/dist/cookieconsent/cookieconsent.min.js?ver=5.9.2'
+        id='cookie-consent-js'></script>
+    <script type='text/javascript' id='cookie-consent-js-after'>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                cookie: {
+                    name: 'show_cookie_banner',
+                    domain: 'hackerrank.com'
+                },
+                content: {
+                    message: 'We use cookies to ensure you have the best browsing experience on our website. Please read our <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="https://www.hackerrank.com/privacy#cookies" target="_blank">cookie policy</a> for more information about how we use cookies.',
+                    messagelink: '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="learn more about cookies" tabindex="0" class="cc-link" href="{{href}}" target="_blank">{{link}}</a></span>',
+                    link: 'Find out more.',
+                    allow: 'Ok',
+                    href: 'https://www.hackerrank.com/privacy#cookies',
+                    target: '_blank'
+                },
+                elements: {
+                    allow:
+                        '<a aria-label="allow cookies" role=button tabindex="0"  class="cc-btn cc-false">{{allow}}</a>'
+                },
+                layout: 'hr__cn-layouts',
+                layouts: {
+                    'hr__cn-layouts': '<div class="hr__cookie_notification"> {{messagelink}}{{compliance}} </div>',
+                },
+                type: 'opt-in'
+            })
+        });
+    </script>
+    <!-- tracking hrutm_ parameters -->
+    <script type="text/javascript">
+        (function () {
+            var sPageURL = window.location.search.substring(1);
+            var sURLVariables = sPageURL.split('&');
+            var trackingData;
+            for (var i = 0; i < sURLVariables.length; i++) {
+                var sParameterName = sURLVariables[i].split('=');
+                if (sParameterName[0] == 'utm_source') {
+                    trackingData = decodeURIComponent(escape(sParameterName[1]));
+                    hr_metrics.track(trackingData.event_name, trackingData)
+                } else if (sParameterName[0] == 'ad-campaign' && sParameterName[1] == 'Mkt1010415') {
+                    if (typeof HR !== "undefined" && HR !== null && (!HR.PREFETCH_DATA.profile || !HR.PREFETCH_DATA.profile.created_at)) {
+                        document.cookie = "fb_ad_campaign_source=" + sParameterName[1] + ";path=/";
+                    }
+                }
+            }
+        })();
+    </script><!-- All Event Tracking -->
+    <script type="text/javascript">
+        if (jsCookies.get("hackerrank_mixpanel_token")) {
+            mixpanel.identify(jsCookies.get("hackerrank_mixpanel_token"));
+        } else {
+            jQuery(document).ready(function ($) {
+                $.get("https://" + window.location.hostname + "/prefetch_data", function (data) {
+                    mixpanel.identify(jsCookies.get("hackerrank_mixpanel_token"));
+                });
+            });
+        }
+
+        jQuery(document).ready(function ($) {
+            hr_metrics.track("PageLoad", window.location.pathname, {});
+            $(document).on('click', 'a', null, function (e) {
+                src = $(e.currentTarget);
+                action = 'Click';
+                if (src.attr('data-analytics')) {
+                    data = src.attr('data-analytics');
+                } else {
+                    tagname = src.prop("tagName").toUpperCase();
+                    if (tagname == "A") {
+                        data = $.trim(src.text());
+                    }
+                    else {
+                        return;
+                    }
+                }
+
+                hr_metrics.track(action, data, (function () {
+                    var params = {};
+                    for (var _i = 1; _i <= 11; ++_i) {
+                        var _attr = 'data-attr' + _i;
+                        if (src.attr(_attr)) {
+                            params['attribute' + _i] = src.attr(_attr);
+                        }
+                    }
+                    return params;
+                })());
+                // google analytics
+                //_gaq.push(['_trackEvent', 'Events' , action, data])
+            });
+        });
+    </script>
+    <script id="profitwell-js" data-pw-auth="0572b5a3d0854fd655f0e29b8246a1e4">
+        /* DO NOT DELETE - this code is used to accept our payments or send data to ProfitWell*/
+        (function (i, s, o, g, r, a, m) {
+            i[o] = i[o] || function () { (i[o].q = i[o].q || []).push(arguments) };
+            a = s.createElement(g); m = s.getElementsByTagName(g)[0]; a.async = 1; a.src = r + '?auth=' +
+                s.getElementById(o + '-js').getAttribute('data-pw-auth'); m.parentNode.insertBefore(a, m);
+        })(window, document, 'profitwell', 'script', 'https://public.profitwell.com/js/profitwell.js');
+
+        profitwell('start', {});
+    </script>
+    <script>
+        if (typeof MktoForms2 !== 'undefined') {
+            MktoForms2.whenReady(function (form) {
+                form.addHiddenFields({ Page_URL__c: document.location.href });
+            });
+        }
+    </script>
+</body>
+
+</html>
